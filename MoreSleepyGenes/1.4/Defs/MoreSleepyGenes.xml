@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef ParentName="GeneSleepBase">
+        <defName>ExtremelySleepy</defName>
+        <label>extremely sleepy</label>
+        <description>Carriers of this gene get tired extremely fast compared to others. Note: This gene results in a pawn needing to make full rests more than twice a day.</description>
+        <iconPath>UI/Icons/Genes/Gene_VerySleepy</iconPath>
+        <displayOrderInCategory>-2</displayOrderInCategory>
+        <statFactors>
+            <RestFallRateFactor>2.2</RestFallRateFactor>
+        </statFactors>
+        <biostatMet>6</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sleep</symbol></li>
+                <li><symbol>bed</symbol></li>
+                <li><symbol>somno</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>loaf</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneSleepBase">
+        <defName>SuperSleepy</defName>
+        <label>super sleepy</label>
+        <description>Carriers of this gene get tired much faster than others. Note: This gene results in a pawn needing to make full rests twice a day.</description>
+        <iconPath>UI/Icons/Genes/Gene_VerySleepy</iconPath>
+        <displayOrderInCategory>-1</displayOrderInCategory>
+        <statFactors>
+            <RestFallRateFactor>2.0</RestFallRateFactor>
+        </statFactors>
+        <biostatMet>5</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sleep</symbol></li>
+                <li><symbol>bed</symbol></li>
+                <li><symbol>somno</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>loaf</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneSleepBase">
+        <defName>HighSleepy</defName>
+        <label>high sleepiness</label>
+        <description>Carriers of this gene get tired a notably faster than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_Sleepy</iconPath>
+        <displayOrderInCategory>7</displayOrderInCategory>
+        <statFactors>
+            <RestFallRateFactor>1.6</RestFallRateFactor>
+        </statFactors>
+        <biostatMet>3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sleep</symbol></li>
+                <li><symbol>bed</symbol></li>
+                <li><symbol>somno</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>loaf</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneSleepBase">
+        <defName>SomewhatSleepy</defName>
+        <label>somewhat sleepy</label>
+        <description>Carriers of this gene get tired a little faster than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_Sleepy</iconPath>
+        <displayOrderInCategory>11</displayOrderInCategory>
+        <statFactors>
+            <RestFallRateFactor>1.2</RestFallRateFactor>
+        </statFactors>
+        <biostatMet>1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>sleep</symbol></li>
+                <li><symbol>bed</symbol></li>
+                <li><symbol>somno</symbol></li>
+            </prefixSymbols>
+            <suffixSymbols>
+                <li><symbol>loaf</symbol></li>
+            </suffixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneSleepBase">
+        <defName>SlightlyBelowAverageSleep</defName>
+        <label>slightly below average sleep</label>
+        <description>Carriers of this gene get tired a little less quickly than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_QuickSleeper</iconPath>
+        <displayOrderInCategory>18</displayOrderInCategory>
+        <statFactors>
+            <RestFallRateFactor>0.85</RestFallRateFactor>
+        </statFactors>
+        <biostatMet>-1</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>wake</symbol></li>
+                <li><symbol>night</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneSleepBase">
+        <defName>BelowAverageSleep</defName>
+        <label>below average sleep</label>
+        <description>Carriers of this gene get tired a little less quickly than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_QuickSleeper</iconPath>
+        <displayOrderInCategory>18</displayOrderInCategory>
+        <statFactors>
+            <RestFallRateFactor>0.70</RestFallRateFactor>
+        </statFactors>
+        <biostatMet>-2</biostatMet>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>wake</symbol></li>
+                <li><symbol>night</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneSleepBase">
+        <defName>SomewhatLowSleep</defName>
+        <label>somewhat low sleep</label>
+        <description>Carriers of this gene get tired less quickly than others.</description>
+        <iconPath>UI/Icons/Genes/Gene_QuickSleeper</iconPath>
+        <displayOrderInCategory>19</displayOrderInCategory>
+        <statFactors>
+            <RestFallRateFactor>0.55</RestFallRateFactor>
+        </statFactors>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>wake</symbol></li>
+                <li><symbol>night</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneSleepBase">
+        <defName>VeryLowSleep</defName>
+        <label>very low sleep</label>
+        <description>Carriers of this gene get tired a lot slower than others.</description>
+        <iconPath>Gene_VeryQuickSleeper</iconPath>
+        <displayOrderInCategory>25</displayOrderInCategory>
+        <statFactors>
+            <RestFallRateFactor>0.25</RestFallRateFactor>
+        </statFactors>
+        <biostatMet>-5</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>wake</symbol></li>
+                <li><symbol>night</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="GeneSleepBase">
+        <defName>ExtremelyLowSleep</defName>
+        <label>extremely low sleep</label>
+        <description>Carriers of this gene get tired a extremely slow compared to normal. Note: The cost is the same as never sleep, but the pawn still goes to bed, so they can participate in lovin'</description>
+        <iconPath>Gene_VeryQuickSleeper</iconPath>
+        <displayOrderInCategory>25</displayOrderInCategory>
+        <statFactors>
+            <RestFallRateFactor>0.10</RestFallRateFactor>
+        </statFactors>
+        <biostatMet>-6</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>wake</symbol></li>
+                <li><symbol>night</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>
+
