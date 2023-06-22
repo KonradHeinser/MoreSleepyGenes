@@ -170,7 +170,7 @@
         <label>extremely low sleep</label>
         <description>Carriers of this gene get tired a extremely slow compared to normal. Note: The cost is the same as never sleep, but the pawn still goes to bed, so they can participate in lovin'</description>
         <iconPath>Gene_VeryQuickSleeper</iconPath>
-        <displayOrderInCategory>25</displayOrderInCategory>
+        <displayOrderInCategory>26</displayOrderInCategory>
         <statFactors>
             <RestFallRateFactor>0.10</RestFallRateFactor>
         </statFactors>
