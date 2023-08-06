@@ -96,7 +96,7 @@
         <label>slightly below average sleep</label>
         <description>Carriers of this gene get tired a little less quickly than others.</description>
         <iconPath>UI/Icons/Genes/Gene_QuickSleeper</iconPath>
-        <displayOrderInCategory>18</displayOrderInCategory>
+        <displayOrderInCategory>17</displayOrderInCategory>
         <statFactors>
             <RestFallRateFactor>0.85</RestFallRateFactor>
         </statFactors>
